@@ -7,6 +7,9 @@ from reader._types import EntryData
 from reader._types import FeedData
 from reader.types import Author
 
+if False:
+    url_base = ''
+
 feed = FeedData(
     url=f'{url_base}full.rss',
     updated=datetime.datetime(2010, 9, 6, 0, 1, tzinfo=datetime.UTC),

@@ -6,6 +6,9 @@ from reader._types import EntryData
 from reader._types import FeedData
 from reader.types import Author
 
+if False:
+    url_base = ''
+
 feed = FeedData(
     url=f'{url_base}invalid.json',
     version='json11',
