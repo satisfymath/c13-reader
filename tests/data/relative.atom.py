@@ -5,6 +5,10 @@ from reader import Enclosure
 from reader._types import EntryData
 from reader._types import FeedData
 
+if False:
+    url_base = ''
+    rel_base = ''
+
 feed = FeedData(
     url=f'{url_base}relative.atom',
     link=f'{rel_base}file.html',
